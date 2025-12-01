@@ -2,7 +2,7 @@ import React from 'react';
 
 function App() {
   const value = 'Bebe';
-  return <div>Hello {value}</div>;
+  return <div> {value}</div>;
 }
 
 export default App;
