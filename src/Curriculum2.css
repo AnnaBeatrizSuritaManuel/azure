@@ -1,0 +1,37 @@
+.curriculum-card {
+  width: 95%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 55px;
+
+  background: rgba(249, 245, 255, 0.75);
+  backdrop-filter: blur(12px);
+
+  border-radius: 22px;
+  border: 1px solid rgba(229, 180, 255, 0.4);
+
+  box-shadow: 0 12px 30px rgba(112, 16, 185, 0.22);
+  transition: 0.3s ease;
+}
+
+.curriculum-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(103, 16, 185, 0.32);
+}
+
+.curriculum-card h1 {
+  font-size: 34px;
+  margin-bottom: 30px;
+  color: #37065f;
+  font-weight: 700;
+}
+
+.curriculum-card p {
+  font-size: 19px;
+  margin: 12px 0;
+  color: #37064e;
+}
+
+.curriculum-card strong {
+  color: #4f0478;
+}
